@@ -1,12 +1,14 @@
 import css from './App.module.css';
-import NavBarSimple from './components/NavbarSimple';
+// import NavBarSimple from './components/NavbarSimple';
 import Sidebar from './components/Sidebar';
+import NavBarForm from './components/NavBarForm';
 
 function App() {
   return (
     <div className={css.App}>
-      <NavBarSimple />
+      {/* <NavBarSimple /> */}
       <Sidebar />
+      <NavBarForm />
     </div>
   );
 }
