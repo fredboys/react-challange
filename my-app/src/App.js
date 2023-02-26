@@ -1,19 +1,19 @@
-import css from './App.module.css';
-// import NavBarSimple from './components/NavbarSimple';
-import Sidebar from './components/Sidebar';
-import NavBarForm from './components/NavBarForm';
-import Content from "./components/Content";
+import css from "./App.module.css";
+// import NavBarSimple from "./components/NavBarSimple";
+import Sidebar from "./components/Sidebar";
+import NavBarForm from "./components/NavBarForm";
+// import Content from "./components/Content";
+import ContentHooks from "./components/ContentHooks";
 
 function App() {
   return (
     <div className={css.App}>
-      {/* <NavBarSimple /> */}
-      <Sidebar />
       <NavBarForm />
-      <Content />
+      <Sidebar />
+      {/* <Content /> */}
+      <ContentHooks />
     </div>
   );
 }
 
-
-export default App; 
+export default App;
